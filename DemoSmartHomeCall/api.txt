@@ -1,0 +1,7 @@
+turn on / turn off: broker.mqtt-dashboard.com/demo_project3/manage/{device-name}
+	publish content: 1 - on, 0 - off
+add / remove device: broker.mqtt-dashboard.com/demo_project3/{add|remove}
+	publish content: device-name
+
+// server send 0 as false, 1 as true
+// web send 2 as false, 3 as true
